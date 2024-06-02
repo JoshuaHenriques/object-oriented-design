@@ -5,6 +5,8 @@ import (
 	"sync"
 )
 
+// singleton.go
+
 var lock = &sync.Mutex{}
 
 type Singleton struct{}
@@ -39,6 +41,8 @@ func getInstance() *Singleton {
 
 	return singleInstance
 }
+
+// main.go
 
 func main() {
 	for i := 0; i < 5; i++ {

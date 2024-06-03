@@ -1,3 +1,4 @@
+export {}
 /**
  * The example class that has cloning ability. We'll see how the values of field
  * with different types will be cloned.

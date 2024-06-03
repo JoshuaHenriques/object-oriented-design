@@ -1,3 +1,4 @@
+export {}
 /**
  * The Singleton class defines an `instance` getter, that lets clients access
  * the unique singleton instance.

@@ -3,7 +3,7 @@
  * the unique singleton instance.
  */
 class Singleton {
-    static #instance: Singleton;
+    static #instance: Singleton
     
     /**
      * The Singleton's constructor should always be private to prevent direct
@@ -26,7 +26,7 @@ class Singleton {
     }
 }
 
-function clientCode() {
+function clientCode(): void {
     const s1 = Singleton.instance
     const s2 = Singleton.instance
 
